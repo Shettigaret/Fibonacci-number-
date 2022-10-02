@@ -4,8 +4,10 @@ n_1=0
 n_2=0
 count=0
 
+#Now we will check if the number of terms is valid or not 
 If n_terms<0
    print("please enter a positive integer,the given number is not valid
+#if there is only one term,it will return? _1
 elif n_terms==1:
    print("the Fibonacci sequence of the numbers upto"n_terms,":")
    print(n_1)
